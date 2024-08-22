@@ -22,8 +22,7 @@
         </p>
 
         <?php
-        var_dump($POST['login_usuario']);
-        var_dump($POST['login_clave']);
+
         if (isset($_POST['login_usuario']) && isset($_POST['login_clave'])) {
             require_once "./php/main.php";
             require_once "./php/iniciar_sesion.php";
@@ -31,11 +30,5 @@
 
         ?>
 
-
     </form>
-
-
-
-
-
 </div>

@@ -1,0 +1,26 @@
+.main-container {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.input {
+    max-width: 300px;
+    /* Limita el ancho de los inputs */
+}
+
+.control {
+    margin-bottom: 20px;
+    /* Espacio entre los elementos del formulario */
+}
+
+.button {
+    width: 100%;
+    /* Extiende el botón al ancho completo del input */
+}
+
+.icon {
+    color: #3273dc;
+    /* Color de los iconos para hacerlos más visibles */
+}
